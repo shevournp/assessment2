@@ -20,8 +20,15 @@
 */
 
 //CODE HERE
-
-
+class employee {
+    constructor(name,shifts) {
+        this.name = name
+        this.shifts = shifts
+    }
+}
+    const getSchedule = (employee) => {
+        console.log(employee.name, "___ ", employee.shifts);
+    }
 
 /*
     Create a new instance of your class.
@@ -34,13 +41,17 @@
 */
 
 //CODE HERE
-
+    let empOne ={ 
+        name: 'Jess',
+        shifts: 'weekday mornings, weekday afternoons'
+    }
 /*
     Call the `getSchedule` method on the
     `empOne` object.
 */
 
 //CODE HERE
+getSchedule(empOne); 
 
 
 /*
@@ -56,7 +67,8 @@
 */
 
 //CODE HERE
-
+let empTwo = " "
+empTwo.name= 'nick'
 
 
 //////////////////PROBLEM 2////////////////////
@@ -83,9 +95,17 @@
 */
 
 //CODE HERE
+class manger extends employee{
+    constructor( name, shifts, employee){
+        super(name,shifts)
+        this.employee= employee
+   }
 
+    getEmployee(){
+        console.log(`${this.name}mangers have ${this.employee}employees`);
+    }
 
-
+}
 /*
     Create a new instance of your class.
     Save it to a variable called `manager`.
@@ -98,6 +118,7 @@
 */
 
 //CODE HERE
+let mangers =new manger ('Winston,weekday', 'mornings', 'weekday afternoons', 'cece & schmidt')
 
 
 /*
@@ -106,6 +127,7 @@
 */
 
 //CODE HERE
+mangers.getEmployee();
 
 /*
     Call the `addEmployee` method on the 
@@ -114,6 +136,7 @@
 */
 
 //CODE HERE 
+// mangers.addEmployee("coach")
 
 /*
     Call the `getEmployees` method on the
@@ -122,3 +145,4 @@
 */
 
 //CODE HERE
+// mangers.getEmployee()
