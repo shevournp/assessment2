@@ -31,7 +31,14 @@
 */
 
 //CODE HERE
-
+let pizza = {
+     names 'hami',
+        price 8,
+        category 'appetizer',
+        popularity 5,
+        rating 5,
+        tags ('pizza', 'hami', 'kids')
+}
 
 
 //////////////////PROBLEM 2////////////////////
@@ -43,7 +50,7 @@
 */
 
 //CODE HERE
-
+// console.log(pizz.popularity)
 
 /*
     Second, log the second tag in your pizza's
@@ -53,6 +60,7 @@
 */
 
 //CODE HERE
+console.log(pizza.tags[1])
 
 
 /*
@@ -105,8 +113,8 @@
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
-
+const filteredFood = foodArr.filter(CALLBACK)
+console.log(filteredFood)
 
 
 //////////////////PROBLEM 5////////////////////
