@@ -40,11 +40,11 @@ class ticket {
 
 }
     const updateStatus = (newStatus) => {
-        newStatus= ''
-        console.log(`the order for customer ${customerId} is now ${newStatus}`)
+        newStatus= 'meeh'
+        console.log(`the order for customer ${this.customerId} is now ${newStatus}`)
     }
 
-
+    updateStatus();
 /*
     Create a new instance of your class.
     Save it to a variable called `firstTicket`.
@@ -66,7 +66,8 @@ let firstTicket= new ticket
 */
 
 //CODE HERE
-
-function updateStatus( firstTicket ){
-    return cooking
-}
+updateStatus( firstTicket.cooking )
+// {
+//     // return cooking
+//     console.log ('cooking')
+// }
