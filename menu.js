@@ -172,3 +172,8 @@ const filterByProperty= (property, number, type) => {
 */
 
 //CODE HERE
+filterByProperty = (property, number,type) => {
+ 
+
+
+}
