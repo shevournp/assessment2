@@ -122,7 +122,7 @@ const deals = [
 
 //CODE HERE
 
-// deals[1].desc = deals[1].desc.trimreplace('15', '1')
+deals[1].desc = deals[1].desc.trimreplace('15', '1')
 
 
 /*
