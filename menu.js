@@ -31,14 +31,14 @@
 */
 
 //CODE HERE
-// let pizza = {
-//      names 'hami'
-//         price 8,
-//         category 'appetizer',
-//         popularity 5,
-//         rating 5,
-//         tags ('pizza', 'hami', 'kids')
-// }
+let pizza = {
+     names 'hami'
+        price - 8
+        category 'appetizer',
+        popularity 5,
+        rating 5,
+        tags ['pizza', 'hami', 'kids']
+}
 
 
 //////////////////PROBLEM 2////////////////////
@@ -96,9 +96,9 @@ console.log (`this is ${pizza}`)
     data in some functions that you'll write.
 */
 
-//CODE HERE
-
-
+    const filterByProperty= (property, number, type) => {
+        if (type ===)
+    }
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -114,7 +114,7 @@ console.log (`this is ${pizza}`)
 
 //CODE HERE
 const callback= (element) => element.tags.includes 
-const filteredFood = foodArr.filter(CALLBACK)
+const filteredFood = foodArr.filter(callback)
 console.log(filteredFood)
 
 
@@ -159,7 +159,7 @@ console.log(filteredFood)
 
 //CODE HERE
 const filterByProperty= (property, number, type) => {
-    if (type)  
+    if (type ===)  
 
 }
 

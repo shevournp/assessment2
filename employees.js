@@ -41,7 +41,7 @@ class employee {
 */
 
 //CODE HERE
-    let empOne ={ 
+    let empOne ="" {
         name: 'Jess',
         shifts: 'weekday mornings, weekday afternoons'
     }
@@ -98,13 +98,17 @@ empTwo.name= 'nick'
 class manger extends employee{
     constructor( name, shifts, employee){
         super(name,shifts)
-        this.employee= employee
+        this.employee= [employee]
    }
 
     getEmployee(){
-        console.log(`${this.name}mangers have ${this.employee}employees`);
+        console.log(`${this.name}mangers has ${this.employee}employees`);
     }
+    
 
+    addEmployee(emp){
+        this.employee.push(emp)
+    }
 }
 /*
     Create a new instance of your class.
@@ -136,7 +140,7 @@ mangers.getEmployee();
 */
 
 //CODE HERE 
-// mangers.addEmployee("coach")
+mangers.addEmployee("coach")
 
 /*
     Call the `getEmployees` method on the
@@ -145,4 +149,4 @@ mangers.getEmployee();
 */
 
 //CODE HERE
-// mangers.getEmployee()
+mangers.getEmployee()

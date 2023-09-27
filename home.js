@@ -122,7 +122,7 @@ const deals = [
 
 //CODE HERE
 
-deals[1].desc = deals[1].desc.trimreplace('15', '1')
+deals[0].title = deals[0].title.replace('15', '10')
 
 
 /*
@@ -139,4 +139,4 @@ deals[1].desc = deals[1].desc.trimreplace('15', '1')
 */
 
 //CODE HERE
-deals[1].desc = deals[1].desc.trim.replace('march', 'april')
+deals[1].desc = deals[1].desc.trim.replace('March', 'April')

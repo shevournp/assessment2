@@ -35,10 +35,10 @@ const cart = [
 
 //CODE HERE
 
-const sumPrice = cart.reduce(element (acc + current.price, index)
+const sumPrice = cart.reduce(element = (acc, curr)=> acc+=curr.price,0)
 
+console.log(sumPrice)
 
-)
 
 
 //////////////////PROBLEM 2////////////////////
