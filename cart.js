@@ -40,7 +40,6 @@ const sumPrice = cart.reduce((acc,cur)=> {
 
 },)
 console.log(sumPrice)
-//followed the handout using the arrow method 
 
 
 //////////////////PROBLEM 2////////////////////

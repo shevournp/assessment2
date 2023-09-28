@@ -161,6 +161,7 @@ const filterByProperty= (property, number, type) => {
 }
 
 
+
 /*
     Invoke the `filterByProperty` function passing
     in a value for each paramter.
