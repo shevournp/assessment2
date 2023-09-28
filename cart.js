@@ -35,10 +35,12 @@ const cart = [
 
 //CODE HERE
 
-const sumPrice = cart.reduce(element = (acc, curr)=> acc+=curr.price,0)
+const sumPrice = cart.reduce((acc,cur)=> {
+    return acc + cur.price
 
+},)
 console.log(sumPrice)
-
+//followed the handout using the arrow method 
 
 
 //////////////////PROBLEM 2////////////////////
@@ -94,3 +96,8 @@ const calcFinalPrice = (cartTotal, couponValue, tax ) => {
 */
 
 //CODE HERE
+let customer = {
+    name: 'Shev',
+    age:26
+}
+console.log(customer)

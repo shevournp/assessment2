@@ -60,7 +60,7 @@ const canWeDeliver= (zipCode)=> {
         }
     }return 'Sorry, we cant deliver to that address '
 }
-// console.log(canWeDeliver(85205))
+console.log(canWeDeliver(85205))
 
 /* 
     Problem 2 Continued
@@ -81,10 +81,15 @@ const canWeDeliver= (zipCode)=> {
 
 // CODE HERE
 const canWeDeliverTwo=(zipCode)=>{
-    deliveryAreaZipCodes.includes(zipCode)
-    return yes 
+    if(deliveryAreaZipCodes.includes(zipCode)){
+        return'youre in the zone'
+    }else{
+        return 'no you are not in the zone'
+    }
 }
-// console.log(canWeDeliver(85208))
+   
+
+console.log(canWeDeliver(85208))
 
 
 //////////////////PROBLEM 3////////////////////
@@ -122,7 +127,7 @@ const deals = [
 
 //CODE HERE
 
-deals[0].title = deals[0].title.replace('15', '10')
+let newDeal= deals[0].title = deals[0].title.replace('15', '10')
 
 
 /*
@@ -139,4 +144,4 @@ deals[0].title = deals[0].title.replace('15', '10')
 */
 
 //CODE HERE
-deals[1].desc = deals[1].desc.trim.replace('March', 'April')
+let newDeals= deals[1].desc = deals[1].desc.trim.replace('March', 'April')

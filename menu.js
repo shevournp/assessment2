@@ -32,12 +32,12 @@
 
 //CODE HERE
 let pizza = {
-     names 'hami'
-        price - 8
-        category 'appetizer',
-        popularity 5,
-        rating 5,
-        tags ['pizza', 'hami', 'kids']
+     names:'hami'
+        price: - 8
+        category: 'appetizer',
+        popularity: 5,
+        rating: 5,
+        tags:['pizza', 'hami', 'kids']
 }
 
 
@@ -96,10 +96,7 @@ console.log (`this is ${pizza}`)
     data in some functions that you'll write.
 */
 
-    const filterByProperty= (property, number, type) => {
-        if (type ===)
-    }
-
+   
 //////////////////PROBLEM 4////////////////////
 /* 
     Let's filter the food objects according
@@ -113,7 +110,7 @@ console.log (`this is ${pizza}`)
 */
 
 //CODE HERE
-const callback= (element) => element.tags.includes 
+const callback= (element) => element.tags.includes ('hami')
 const filteredFood = foodArr.filter(callback)
 console.log(filteredFood)
 
@@ -159,7 +156,7 @@ console.log(filteredFood)
 
 //CODE HERE
 const filterByProperty= (property, number, type) => {
-    if (type ===)  
+    if (type===)  
 
 }
 
@@ -173,7 +170,5 @@ const filterByProperty= (property, number, type) => {
 
 //CODE HERE
 filterByProperty = (property, number,type) => {
- 
-
 
 }

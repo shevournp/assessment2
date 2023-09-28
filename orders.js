@@ -32,19 +32,18 @@
 //CODE HERE
 class ticket {
     constructor (items, orderTime, customerId){
-        this.items =items
-        this.orderTime=orderTime
-        this.customerId= customerId
+        this.items =items;
+        this.orderTime=orderTime;
+        this.customerId= customerId;
         this.status= 'queued'
     }
-
-}
-    const updateStatus = (newStatus) => {
-        newStatus= 'meeh'
-        console.log(`the order for customer ${this.customerId} is now ${newStatus}`)
+    
+        updateStatus (newStatus){
+            this.status= newStatus={}
+        console.log(`the order for customer ${customerId} is now ${newStatus}`)
     }
 
-    updateStatus();
+
 /*
     Create a new instance of your class.
     Save it to a variable called `firstTicket`.
@@ -57,7 +56,8 @@ class ticket {
 */
 
 //CODE HERE
-let firstTicket= new ticket
+let firstTicket = new ticket('pie', 'soda', 'dread' )
+    console.log(firstTicket)
 
 /*
     Call the `updateStatus` method on
@@ -66,8 +66,5 @@ let firstTicket= new ticket
 */
 
 //CODE HERE
-updateStatus( firstTicket.cooking )
-// {
-//     // return cooking
-//     console.log ('cooking')
-// }
+firstTicket.updateStatus('cooking')
+

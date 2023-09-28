@@ -26,8 +26,8 @@ class employee {
         this.shifts = shifts
     }
 }
-    const getSchedule = (employee) => {
-        console.log(employee.name, "___ ", employee.shifts);
+    const getSchedule = () => {
+        console.log(employee.name , employee.shifts);
     }
 
 /*
@@ -41,10 +41,10 @@ class employee {
 */
 
 //CODE HERE
-    let empOne ="" {
-        name: 'Jess',
-        shifts: 'weekday mornings, weekday afternoons'
-    }
+    let empOne = new 
+    empOne.name= 'nicki'
+
+    
 /*
     Call the `getSchedule` method on the
     `empOne` object.
@@ -122,7 +122,7 @@ class manger extends employee{
 */
 
 //CODE HERE
-let mangers =new manger ('Winston,weekday', 'mornings', 'weekday afternoons', 'cece & schmidt')
+let mangers =new manger ('Winston,', 'weekday afternoons', 'cece & schmidt')
 
 
 /*
